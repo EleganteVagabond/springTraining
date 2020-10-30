@@ -1,0 +1,6 @@
+Spring learning notes
+Started: 10/28/2020
+
+Using demo at : https://thepracticaldeveloper.com/full-reactive-stack-1-intro/
+I had a problem with the response not coming back as fast as I expected (or at all really) when trying to use the reactive model which should have streamed the data. I also did not use the paged version so that is on me :) 
+The issue was that when making the request via a browser or postman the accept header was not set correctly. Had to use curl in the git bash console for it to work
